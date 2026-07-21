@@ -1,4 +1,4 @@
-1.first init 
+1.first setup
 2. first add . or only for specific file will be added right 
 3. git commit 
 
@@ -416,4 +416,23 @@ git pull performs a fetch and then immediately integrates those changes into my 
 
 
 
+
+ssh configuration i face issue for hasnat keys butw when i have run ssh -T company then it will be working 
+Host company
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/outlook-email
+    IdentitiesOnly yes
+
+This means:
+
+When you connect to company, SSH always uses ~/.ssh/outlook-email.
+That key belongs to nazir163.
+You confirmed it by running:
+
+ssh -T company
+
+Output:
+
+Hi nazir163! You've successfully authenticated...
 
