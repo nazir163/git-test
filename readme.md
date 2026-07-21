@@ -1,4 +1,4 @@
-1.first setup for feature branch 
+1.first setup for feature branch 6
 2. first add . or only for specific file will be added right 
 3. git commit 
 
