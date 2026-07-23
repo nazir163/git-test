@@ -1,5 +1,5 @@
 1.first setup for feature branch 4 
-2. first add . or only for specific file will be added right 
+2. first add . or only for specific file will be added right so add git add .
 3. git commit 
 
 mv   -> normal move
