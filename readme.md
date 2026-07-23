@@ -414,6 +414,24 @@ git fetch safely downloads the latest commits and updates my remote-tracking bra
 git pull performs a fetch and then immediately integrates those changes into my current branch, which may trigger merge conflicts right away."
 
 
+git Cherry pick ?
+
+git cherry-pick copies one or more specific commits from one branch and applies them to another branch without merging the entire branch.
+
+Git creates a new commit with the same changes on the target branch—it does not move the original commit.
+
+# Pick one commit
+git cherry-pick abc123
+
+# Pick multiple commits
+git cherry-pick abc123 def456
+
+# Continue after resolving conflicts
+git cherry-pick --continue
+
+# Cancel the operation
+git cherry-pick --abort
+
 
 
 
